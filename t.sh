@@ -79,7 +79,6 @@ process_action () {
 			;;
 		'?'|h|help)
 			show_help
-			exit
 			;;
 		*)
 			run="$name${run:+" $run"}"
